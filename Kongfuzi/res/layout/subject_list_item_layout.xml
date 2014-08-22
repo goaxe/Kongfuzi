@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/listview_item_bg"
+    android:layout_width="match_parent"
+    android:layout_height="60.0dip"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/subject_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:textSize="16.0sp"
+        android:layout_margin="10.0dip"
+        android:text="sumiao"/>
+    
+
+</LinearLayout>

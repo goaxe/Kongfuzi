@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">孔夫子教师版</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_welcome">孔夫子教师版</string>
+    <string name="title_activity_login">孔夫子教师版</string>
+    <string name="title_activity_attendance_summary">考勤汇总</string>
+    <string name="title_activity_attendance_day">AttendanceDayActivity</string>
+    <string name="title_activity_class_list">ClassListActivity</string>
+    <string name="title_activity_student_list">StudentListActivity</string>
+    <string name="title_activity_start_roll_call">StartRollCallActivity</string>
+    <string name="title_activity_mark_date_list">MarkDateListActivity</string>
+    <string name="title_activity_mark_student_list">MarkStudentListActivity</string>
+    <string name="title_activity_modify_mark">ModifyMarkActivity</string>
+    <string name="title_activity_profile_setting">ProfileSettingActivity</string>
+    <string name="title_activity_homework_date_list">HomeworkDateListActivity</string>
+    <string name="title_activity_homework_subject_list">HomeworkSubjectListActivity</string>
+    <string name="title_activity_homework_class">HomeworkClassActivity</string>
+    <string name="attendance_summary_rate">考勤汇总：到勤率 %1$d %</string>
+    <string name="title_activity_dianming_student_list">DianmingStudentListActivity</string>
+    <string name="title_activity_dianming_modify">DianmingModifyActivity</string>
+    <string name="title_activity_browse_image">BrowseImageActivity</string>
+    <string name="title_activity_zuoye_detail_list">ZuoyeDetailListActivity</string>
+    <string name="title_activity_query_classes_list">QueryClassesListActivity</string>
+    <string name="title_activity_zuoye_subject_list">ZuoyeSubjectListActivity</string>
+    <string name="title_activity_zuoye_student_list">ZuoyeStudentListActivity</string>
+    <string name="title_activity_chengji_lu_ru">ChengjiLuRuActivity</string>
+    <string name="title_activity_exam_student_list">ExamStudentListActivity</string>
+    <string name="title_activity_chengji_quxian">ChengjiQuxianActivity</string>
+    <string name="title_activity_muban_list">MubanListActivity</string>
+    <string name="title_activity_mark_muban_list">MarkMubanListActivity</string>
+    <string name="title_activity_zuoye_modify">ZuoyeModifyActivity</string>
+    <string name="title_activity_zuoye_muban_list">ZuoyeMubanListActivity</string>
+    <string name="title_activity_exam_submit">ExamSubmitActivity</string>
+    <string name="title_activity_dianping_list">DianpingListActivity</string>
+    <string name="title_activity_dianping_student_list">DianpingStudentListActivity</string>
+    <string name="title_activity_dianping_chat">DianpingChatActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_notification_list">NotificationListActivity</string>
+
+</resources>

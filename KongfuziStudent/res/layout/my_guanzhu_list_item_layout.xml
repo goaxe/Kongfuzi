@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50.0dip"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    
+    <FrameLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+        
+        <ImageView 
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_margin="10.0dip"
+            android:layout_gravity="center"
+            android:src="@drawable/search"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="1"/>
+        
+    </FrameLayout>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中央美院"/>
+    
+    <TextView 
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="(已有100人关注)"/>
+    
+    <TextView 
+        android:id="@+id/join_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10.0dip"
+        android:text="加入志愿"/>
+    
+    <ImageView 
+        android:id="@+id/delete_imageview"
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip"
+        android:layout_margin="10.0dip"
+        android:src="@drawable/open_more_home_frame"
+        android:visibility="gone"/>
+
+</LinearLayout>

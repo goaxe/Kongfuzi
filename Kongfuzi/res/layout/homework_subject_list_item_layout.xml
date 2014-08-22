@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/listview_item_bg"
+    android:layout_width="match_parent"
+    android:layout_height="60.0dip"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/class_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10.0dip"
+        android:textSize="18sp"
+        android:text="测试班级2"/>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10.0dip"
+        android:orientation="horizontal">
+        
+        <TextView 
+        android:id="@+id/wj_textview"
+        android:layout_width="0.0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="未交7/7"/>
+        <TextView 
+        android:id="@+id/wp_textview"
+        android:layout_width="0.0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="未批0/7"/>
+        <TextView 
+        android:id="@+id/yp_textview"
+        android:layout_width="0.0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="已批0/7"/>
+    </LinearLayout>
+    
+</LinearLayout>

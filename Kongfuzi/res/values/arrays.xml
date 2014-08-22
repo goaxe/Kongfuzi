@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tab_titles">
+        <item>点名</item>
+        <item>成绩</item>
+        <item>作业</item>
+        <item>点评</item>
+        <item>设置</item>
+    </string-array>
+    <string-array name="choice_titles">
+        <item>拍摄照片</item>
+        <item>从相册选取</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="chengji_choices">
+        <item>录入成绩</item>
+        <item>评语模版</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="muban_choices">
+        <item>修改模板</item>
+        <item>删除模板</item>
+        <item>添加模板</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="status">
+        <item>STATUE_DAO</item>
+        <item>STATUE_KUANGKE</item>
+        <item>STATUE_BINGJIA</item>
+        <item>STATUE_SHIJIA</item>
+        <item>STATUE_CHIDAO</item>
+        <item>STATUE_ZAOTUI</item>
+    </string-array>
+
+    <array name="status_ids">
+        <item>@drawable/dao_normal</item>
+        <item>@drawable/kuang_normal</item>
+        <item>@drawable/bing_normal</item>
+        <item>@drawable/shi_normal</item>
+        <item>@drawable/chi_normal</item>
+        <item>@drawable/zao_normal</item>
+    </array>
+
+</resources>

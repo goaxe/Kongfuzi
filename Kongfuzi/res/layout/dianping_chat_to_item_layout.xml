@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+        <LinearLayout 
+        android:id="@+id/date_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginBottom="5.0dip"
+        android:orientation="horizontal">
+        <View 
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/line"/>
+        <ImageView 
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:src="@drawable/clock_icon"/>
+        <TextView 
+            android:id="@+id/date_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10.0dip"
+            android:text="2014.5.22 18:42"
+            />
+        <View 
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="1"
+
+            android:background="@drawable/line"/>
+        
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <com.kongfuzi.teacher.wigedits.RoundImageView
+        android:id="@+id/avatar_imageview"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:layout_margin="10.0dip"
+        android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/content_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10.0dip"
+        android:layout_toRightOf="@id/avatar_imageview"
+        android:layout_marginRight="50.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@color/light_grey5"
+        android:text="垃圾啊山东龙口房间卢卡斯的九分裤拉伸的法拉盛京东方了空间阿斯达克两房间奥斯卡鹿鼎记分卡拉斯的风口浪尖阿斯科拉的房间卡拉斯的积分卡拉是经典款了房间奥斯卡类得分" />
+        
+        
+    </RelativeLayout>
+
+    
+</LinearLayout>

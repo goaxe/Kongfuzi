@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kongfuzi.student"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:name="com.kongfuzi.student.MainApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.kongfuzi.student.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kongfuzi.student.MyKechengActivity"
+            android:label="@string/title_activity_my_kecheng" >
+        </activity>
+        <activity
+            android:name="com.kongfuzi.student.MyZuopingListActivity"
+            android:label="@string/title_activity_my_zuoping_list" >
+        </activity>
+        <activity
+            android:name="com.kongfuzi.student.OpponentZuopingListActivity"
+            android:label="@string/title_activity_opponent_zuoping_list" >
+        </activity>
+        <activity
+            android:name="com.kongfuzi.student.MyDaxueActivity"
+            android:label="@string/title_activity_my_daxue" >
+        </activity>
+        <activity
+            android:name="com.kongfuzi.student.MyGuanzhuActivity"
+            android:label="@string/title_activity_my_guanzhu" >
+        </activity>
+        <activity
+            android:name="com.kongfuzi.student.XuanDaxueByScoreActivity"
+            android:label="@string/title_activity_xuan_daxue_by_score" >
+        </activity>
+        <activity
+            android:name="com.kongfuzi.student.XuanDaxueBySubjectActivity"
+            android:label="@string/title_activity_xuan_daxue_by_subject" >
+        </activity>
+        <activity
+            android:name="com.kongfuzi.student.XuanDaxueByProvinceActivity"
+            android:label="@string/title_activity_xuan_daxue_by_province" >
+        </activity>
+        <activity
+            android:name="com.kongfuzi.student.XuanDaxueListActivity"
+            android:label="@string/title_activity_xuan_daxue_list" >
+        </activity>
+        <activity
+            android:name="com.kongfuzi.student.DaxueDuibiListActivity"
+            android:label="@string/title_activity_daxue_duibi_list" >
+        </activity>
+        <activity
+            android:name="com.kongfuzi.student.DaxueDuibiDetailActivity"
+            android:label="@string/title_activity_daxue_duibi_detail" >
+        </activity>
+        <activity
+            android:name="com.kongfuzi.student.SearchJigouListActivity"
+            android:label="@string/title_activity_search_jigou_list" >
+        </activity>
+    </application>
+
+</manifest>

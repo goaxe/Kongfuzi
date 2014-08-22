@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10.0dip"
+        android:paddingBottom="10.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:orientation="horizontal">
+        <TextView 
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2014/06/30"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更多"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="100.0dip"
+            android:layout_weight="1"
+            android:layout_margin="5.0dip"
+            android:src="@drawable/zuoping1"/>
+        
+        <ImageView
+            android:layout_width="0.0dip"
+            android:layout_height="100.0dip"
+            android:layout_weight="1"
+            android:layout_margin="5.0dip"
+            android:src="@drawable/zuoping2"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

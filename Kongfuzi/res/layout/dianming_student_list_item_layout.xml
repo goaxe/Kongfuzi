@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/listview_item_bg"
+    android:layout_width="match_parent"
+    android:layout_height="50.0dip"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+   
+    
+    <com.kongfuzi.teacher.wigedits.RoundImageView
+            android:id="@+id/avatar_imageview"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:layout_margin="5.0dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="林会杰"
+        android:textSize="16sp" />
+
+</LinearLayout>

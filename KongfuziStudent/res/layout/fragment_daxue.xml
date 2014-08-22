@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey5"
+    android:orientation="vertical"
+    tools:context=".XuanDaxueByScoreActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+       <LinearLayout
+           android:id="@+id/score_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="180.0dip"
+                    android:layout_height="50.0dip"
+                    
+                    android:layout_margin="5.0dip"
+                    android:src="@drawable/subject_bg" />
+
+                <TextView
+                    android:layout_width="180.0dip"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:background="@null"
+                    android:paddingLeft="20.0dip"
+                    android:hint="估分选大学" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:src="@drawable/line" />
+
+        <LinearLayout
+            android:id="@+id/subject_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="180.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_margin="5.0dip"
+                    android:src="@drawable/subject_bg" />
+
+                <TextView
+                    android:layout_width="180.0dip"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:background="@null"
+                    android:paddingLeft="20.0dip"
+                    android:hint="专业选大学" />
+            </FrameLayout>
+        </LinearLayout>
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:src="@drawable/line" />
+
+        <LinearLayout
+            android:id="@+id/province_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="180.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_margin="5.0dip"
+                    android:src="@drawable/subject_bg" />
+
+                <TextView
+                    android:layout_width="180.0dip"
+                    android:layout_height="40.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:background="@null"
+                    android:paddingLeft="20.0dip"
+                    android:hint="招生省份选大学" />
+            </FrameLayout>
+        </LinearLayout>
+
+       
+     </LinearLayout>
+
+
+</LinearLayout>

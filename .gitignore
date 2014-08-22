@@ -1,0 +1,13 @@
+*.class
+.metadata
+/Kongfuzi/bin
+/Kongfuzi/gen
+/KongfuziStudent/bin
+/KongfuziStudent/gen
+/AndroidTouchGallery/bin
+/HoloEverywhere Addon Preferences/bin
+/HoloEverywhere Addon Slider/bin
+/HoloEverywhere Library/bin
+/SlidingMenu Library/bin
+/ViewPagerIndicator/bin
+/actionbarsherlock/bin

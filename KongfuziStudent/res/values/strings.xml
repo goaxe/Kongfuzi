@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KongfuziStudent</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_my_kecheng">MyKechengActivity</string>
+    <string name="title_activity_my_zuoping_list">MyZuopingListActivity</string>
+    <string name="title_activity_opponent_zuoping_list">OpponentZuopingListActivity</string>
+    <string name="title_activity_my_daxue">MyDaxueActivity</string>
+    <string name="title_activity_my_guanzhu">MyGuanzhuActivity</string>
+    <string name="title_activity_xuan_daxue_by_score">XuanDaxueByScoreActivity</string>
+    <string name="title_activity_xuan_daxue_by_subject">XuanDaxueBySubjectActivity</string>
+    <string name="title_activity_xuan_daxue_by_province">XuanDaxueByProvinceActivity</string>
+    <string name="title_activity_xuan_daxue_list">XuanDaxueListActivity</string>
+    <string name="title_activity_daxue_duibi_list">DaxueDuibiListActivity</string>
+    <string name="title_activity_daxue_duibi_detail">DaxueDuibiDetailActivity</string>
+    <string name="title_activity_search_jigou_list">SearchJigouListActivity</string>
+
+</resources>

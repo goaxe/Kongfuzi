@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="list_view_item_press">#ffADD8E6</color>
+    <color name="light_grey5">#ffe6e6e6</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="normal">#ffffffff</color>
+    <color name="dao">#ffC1FACF</color>
+    <color name="other">#ffFFEECE</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

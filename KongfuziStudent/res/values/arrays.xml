@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="province_titles">
+        <item>北京</item>
+        <item>上海 </item>
+        <item>广州</item>
+        <item>深圳</item>
+    </string-array>
+    
+    
+    <string-array name="duibi_titles">
+        <item>学校</item>
+        <item>类型</item>
+        <item>所在地</item>
+        <item>是否211</item>
+        <item>是否985</item>
+        <item>学校隶属</item>
+        <item>占地面积</item>
+        <item>联系电话</item>
+        <item>师资力量</item>
+        <item>收费标准</item>
+        <item>奖励资助</item>
+        <item>录取规则</item>
+        <item>食宿条件</item>
+    </string-array>
+    
+
+    <string-array name="home_titles">
+        <item>首页</item>
+        <item>找大学</item>
+        <item>找机构</item>
+        <item>云教务</item>
+    </string-array>
+    <string-array name="mine_titles">
+        <item>个人中心</item>
+        <item>我的课程</item>
+        <item>我的大学</item>
+        <item>我的关注</item>
+        <item>我的机构</item>
+    </string-array>
+    <string-array name="chengji_choices">
+        <item>录入成绩</item>
+        <item>评语模版</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="muban_choices">
+        <item>修改模板</item>
+        <item>删除模板</item>
+        <item>添加模板</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="status">
+        <item>STATUE_DAO</item>
+        <item>STATUE_KUANGKE</item>
+        <item>STATUE_BINGJIA</item>
+        <item>STATUE_SHIJIA</item>
+        <item>STATUE_CHIDAO</item>
+        <item>STATUE_ZAOTUI</item>
+    </string-array>
+
+<!--     <array name="status_ids">
+        <item>@drawable/dao_normal</item>
+        <item>@drawable/kuang_normal</item>
+        <item>@drawable/bing_normal</item>
+        <item>@drawable/shi_normal</item>
+        <item>@drawable/chi_normal</item>
+        <item>@drawable/zao_normal</item> 
+    </array>-->
+
+</resources>

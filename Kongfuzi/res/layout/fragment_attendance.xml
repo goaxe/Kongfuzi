@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"
+        android:background="@drawable/login_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/attendance_summary_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20.0dip"
+            android:textColor="#ffffffff"
+            android:text="考勤汇总：到勤率100%" />
+
+        <FrameLayout
+            android:id="@+id/attendance_summary_rate_frameLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="0.0dip"
+            android:layout_weight="1"
+            android:layout_margin="5.0dip"
+            android:layout_gravity="center_horizontal" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/summary_icon" />
+
+            <TextView
+                android:id="@+id/attendance_summary_rate_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="100"
+                android:textColor="#ff28b0ff"
+                android:textSize="36dp" />
+        </FrameLayout>
+        
+        <ImageView
+            android:id="@+id/start_dianming_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:src="@drawable/start_dianming" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/date_class_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/date_class_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="13:46:11 2014-08-03(测试班级1)"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="15.0dip"
+            android:textSize="16.0sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_height="1.0dip"
+            android:background="@drawable/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/all_layout"
+                android:layout_width="0.0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <FrameLayout 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10.0dip"
+                   android:layout_marginLeft="10.0dip"
+                   android:layout_marginRight="10.0dip"
+                   android:layout_marginBottom="2.0dip">
+                    <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70.0dip"
+                    android:src="@drawable/circle" />
+                    <TextView 
+                        android:id="@+id/all_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="#ff28b0ff"
+                        android:text="0"/>
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#b5bac0"
+                    android:text="总数" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sd_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <FrameLayout 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10.0dip"
+                   android:layout_marginLeft="10.0dip"
+                   android:layout_marginRight="10.0dip"
+                   android:layout_marginBottom="2.0dip">
+                    <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70.0dip"
+                    android:src="@drawable/circle" />
+                    <TextView 
+                        android:id="@+id/sd_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="#ff28b0ff"
+                        android:text="0"/>
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#b5bac0"
+                    android:text="实到" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cd_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <FrameLayout 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10.0dip"
+                   android:layout_marginLeft="10.0dip"
+                   android:layout_marginRight="10.0dip"
+                   android:layout_marginBottom="2.0dip">
+                    <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70.0dip"
+                    android:src="@drawable/circle" />
+                    <TextView 
+                        android:id="@+id/cd_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="#ff28b0ff"
+                        android:text="0"/>
+                </FrameLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#b5bac0"
+                    android:text="迟到" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/other_layout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                  
+                <FrameLayout 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10.0dip"
+                   android:layout_marginLeft="10.0dip"
+                   android:layout_marginRight="10.0dip"
+                   android:layout_marginBottom="2.0dip">
+                    <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70.0dip"
+                    android:src="@drawable/circle" />
+                    <TextView 
+                        android:id="@+id/other_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="#ff28b0ff"
+                        android:text="0"/>
+                </FrameLayout>
+                
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#b5bac0"
+                    android:text="其他" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
